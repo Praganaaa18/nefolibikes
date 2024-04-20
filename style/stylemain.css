@@ -1,0 +1,117 @@
+body
+{
+    /* background-color: red;
+    background-image: url(bg.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 500px 200px; */
+    /* background: yellow url(bg2.png) fixed center no-repeat; */
+    /* background: rgb(137, 137, 131); */
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+.bg-image{
+    margin: auto;
+    max-width: 100%;
+    /* padding: 20px; */
+}
+
+header{
+    background-color:#0c675fe0;
+    text-align: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* margin-top:10px */
+}
+
+nav ul li a:hover{
+  color:black;
+}
+
+.nav-top{
+    list-style: none;
+    display: flex;
+}
+
+.nav-top li {
+    margin-right: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.image{
+    display: block;
+
+} 
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1ac5b6;
+}
+.bg-image:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+
+.bg-image{
+    max-width: 200%;
+
+    position: relative;
+}
+
+
+.bike-info{
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.bike-info p{
+    padding-right: 15px;
+}
+
+
+
+.bike-info h2{
+    color: #1ac5b6;
+    font-size: 40px;
+    font-family: 'Segoe UI';
+}
